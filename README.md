@@ -36,7 +36,11 @@ If there is an error during the prediction process, the API will return a 400 st
 
 1. Clone the repository.
 2. Install the dependencies.
-3. Run the FastAPI server.
+3. Run the FastAPI server using the command: `uvicorn yield_predictor_api:app --reload`
+
+## Testing
+
+After running the FastAPI server, execute the `test_api` script to test the API.
 
 ## Dependencies
 
